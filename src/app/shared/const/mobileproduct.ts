@@ -1,0 +1,85 @@
+import { Imobile } from "../models/interface";
+
+const mobileProducts:Array<Imobile>= [
+    {
+      id: 1,
+      name: 'iPhone 13',
+      brand: 'Apple',
+      price: 999,
+      image: 'https://example.com/iphone13.jpg',
+      isAvailable: true,
+    },
+    {
+      id: 2,
+      name: 'Samsung Galaxy S21',
+      brand: 'Samsung',
+      price: 899,
+      image: 'https://example.com/galaxys21.jpg',
+      isAvailable: false,
+    },
+    {
+      id: 3,
+      name: 'Google Pixel 6',
+      brand: 'Google',
+      price: 799,
+      image: 'https://example.com/pixel6.jpg',
+      isAvailable: true,
+    },
+    {
+      id: 4,
+      name: 'OnePlus 9 Pro',
+      brand: 'OnePlus',
+      price: 899,
+      image: 'https://example.com/oneplus9pro.jpg',
+      isAvailable: true,
+    },
+    {
+      id: 5,
+      name: 'Xiaomi Mi 11',
+      brand: 'Xiaomi',
+      price: 699,
+      image: 'https://example.com/mi11.jpg',
+      isAvailable: true,
+    },
+    {
+      id: 6,
+      name: 'Sony Xperia 1 III',
+      brand: 'Sony',
+      price: 1199,
+      image: 'https://example.com/xperia1iii.jpg',
+      isAvailable: true,
+    },
+    {
+      id: 7,
+      name: 'LG Velvet',
+      brand: 'LG',
+      price: 599,
+      image: 'https://example.com/lgvelvet.jpg',
+      isAvailable: false,
+    },
+    {
+      id: 8,
+      name: 'Huawei P40 Pro',
+      brand: 'Huawei',
+      price: 899,
+      image: 'https://example.com/p40pro.jpg',
+      isAvailable: true,
+    },
+    {
+      id: 9,
+      name: 'Motorola Moto G Power',
+      brand: 'Motorola',
+      price: 249,
+      image: 'https://example.com/motogpower.jpg',
+      isAvailable: true,
+    },
+    {
+      id: 10,
+      name: 'Nokia 8.3',
+      brand: 'Nokia',
+      price: 499,
+      image: 'https://example.com/nokia8.jpg',
+      isAvailable: true,
+    }
+  
+  ];

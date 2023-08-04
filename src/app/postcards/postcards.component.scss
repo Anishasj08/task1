@@ -1,0 +1,18 @@
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+  height:350px;
+  border:2px solid rosybrown;
+}
+
+.card-header h3{
+        width: 100%; 
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow:ellipsis;
+       
+          }
+
+

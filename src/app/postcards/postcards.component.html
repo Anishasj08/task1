@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" *ngFor="let post of postarray; let i=index">
+            <div class="card mt-5 alert">
+                <div class="card-header alert" 
+                 [ngClass]="{
+                    'alert-info':(i+1)%2===0,
+                    'alert-success':(i+1)%2!==0
+                }"><h3>
+                      {{post.title}}
+                </h3></div>
+                <div class="card-body">
+                    <p>{{post.body}}</p>
+                </div>
+                <div class="card-footer alert"  
+                 [ngClass]="{
+                    'alert-primary':(i+1)%2===0,
+                    'alert-danger':(i+1)%2!==0
+                }"><button class="btn btn-info">Edit</button>
+                    <button class="btn btn-danger">delete</button>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>
